@@ -5,7 +5,7 @@ from fastapi import FastAPI
 
 router = APIRouter()
 
-app= FastAPI
+app= FastAPI()
 
 @app.get("/")
 def root():

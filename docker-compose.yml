@@ -1,8 +1,13 @@
 version: '3.3'
+networks:
+  my_network:
+    driver: bridge
 
 services:
   db:
     image: postgres:15
+    networks:
+      - my_network
     environment:
       POSTGRES_DB: db
       POSTGRES_USER: user
@@ -14,11 +19,17 @@ services:
 
   redis:
     image: redis:7
+    networks:
+      - my_network
     ports:
       - '6379:6379'
 
   api:
-    build: .
+    build:
+      context: .        # root folder
+      dockerfile: api/Dockerfile
+    networks:
+      - my_network
     command: uvicorn api.main:app --host 0.0.0.0 --port 8000
     volumes:
       - .:/app
@@ -29,7 +40,11 @@ services:
       - redis
 
   worker:
-    build: .
+    build:
+      context: .
+      dockerfile: worker/Dockerfile
+    networks:
+      - my_network
     command: celery -A pipeline.tasks worker --loglevel=info
     volumes:
       - .:/app

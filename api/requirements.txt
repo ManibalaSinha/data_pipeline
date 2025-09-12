@@ -1,0 +1,11 @@
+#dependencies
+fastapi 
+uvicorn[standard] 
+requests 
+sqlalchemy 
+psycopg2-binary 
+PyYAML 
+celery[redis] 
+tenacity 
+pytest 
+pyyaml 
