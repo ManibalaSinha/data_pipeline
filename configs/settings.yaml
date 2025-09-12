@@ -1,0 +1,17 @@
+app: 
+  name: data_pipeline
+  environment: local
+
+api:
+  base_url: "https://jsonplaceholder.typicode.com"
+  endpoints:
+    posts: "/posts"
+
+storage:
+  db_url: "postgresql+psycopg2://user:password@db:5432/db"
+  redis_url: "redis://redis:6379/0"
+  s3_bucket: "my-data-bucket"
+
+celery:
+  broker_url: "redis://redis:6379/1"
+  result_backend: "redis://redis:6379/2"

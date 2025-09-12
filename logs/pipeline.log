@@ -683,3 +683,1081 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+INFO:root:Fetching data from API...
+Traceback (most recent call last):
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 39, in <module>
+    run_pipeline()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 35, in run_pipeline
+    data = fetch_data()
+  File "/mnt/c/Users/manib/data_pipeline_project/pipeline.py", line 12, in fetch_data
+    response.raise_for_status()
+  File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
