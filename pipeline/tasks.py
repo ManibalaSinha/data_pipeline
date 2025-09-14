@@ -6,13 +6,13 @@ from pipeline.storage import get_conn, upsert_posts
 
 settings = load_settings()
 
-app = Celery(
-    'tasks',
-    broker=settings['celery']['broker_url'],
-    backend=settings['celery']['result_backend']
+celery_app = Celery(
+    "pipeline",
+    broker="redis://redis:6379/1",
+    backend="redis://redis:6379/2"
 )
 
-@app.task(bind=True, acks_late=True, max_retries=3)
+@celery_app.task(bind=True, acks_late=True, max_retries=3)
 def run_pipeline(self):
     try:
         raw = fetch_posts()

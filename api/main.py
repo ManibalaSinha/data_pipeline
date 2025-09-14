@@ -1,13 +1,25 @@
-from fastapi import FastAPI, BackgroundTasks
+from fastapi import FastAPI, BackgroundTasks, Request
 from pipeline.config import load_settings
 from pipeline.tasks import run_pipeline
 from api.routes import router
 from pipeline.storage import init_db
+from api.middleware import LoggingMiddleware
+import time
 
 settings = load_settings()
 
 app = FastAPI()
 app.include_router(router)
+
+app.add_middleware(LoggingMiddleware)
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    start_time = time.time()
+    response = await call_next(request)
+    duration = time.time() - start_time
+    print(f"Path={request.url.path} took={duration:.4f}s")
+    return response
 
 @app.on_event("startup")
 async def startup_event():

@@ -30,7 +30,7 @@ services:
       dockerfile: api/Dockerfile
     networks:
       - my_network
-    command: uvicorn api.main:app --host 0.0.0.0 --port 8000
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
     volumes:
       - .:/app
     ports:
@@ -51,6 +51,8 @@ services:
     depends_on:
       - db
       - redis
+    working_dir: /app
+    user: "1000:1000"
 
 volumes:
   pgdata:

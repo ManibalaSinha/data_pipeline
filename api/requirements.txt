@@ -9,3 +9,6 @@ celery[redis]
 tenacity 
 pytest 
 pyyaml 
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
