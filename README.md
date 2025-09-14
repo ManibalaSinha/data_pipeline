@@ -1,6 +1,6 @@
 # Data Pipeline
 
-A production-like data pipeline demonstrating Python, Celery, FastAPI, PostgreSQL, and Redis. Ideal for showcasing backend development, asynchronous task processing, and API design in interviews and portfolios.
+A production-like data pipeline demonstrating Python, Celery, FastAPI, PostgreSQL, and Redis. Ideal for backend development, asynchronous task processing, and API design portfolios.
 
 ---
 
@@ -104,3 +104,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ##  Contact
 
 For questions or feedback, please reach out to [smanibala.it@gmail.com](mailto:smanibala.it@gmail.com).
+
