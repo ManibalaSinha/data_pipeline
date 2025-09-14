@@ -8,7 +8,6 @@ logging.basicConfig(level=logging.INFO)
 def fetch_data():
    logging.info("Fetching data from API...")
    response = requests.get("http://localhost:8000/users.json")
-   #response = requests.get("https://myapi.company.com/data")
    response.raise_for_status()
    return response.json()
 def transform_data(data):
@@ -22,7 +21,7 @@ def transform_data(data):
          }
 def load_data(records):
    logging.info("Loading data into PostgreSQL...")
-   conn = psycopg2.connect(database="mydb", user="user", password="pass", host="localhost")
+   conn = psycopg2.connect(database="db", user="postgres", password="password", host="localhost")
    cur = conn.cursor()
    for record in records:
       cur.execute(

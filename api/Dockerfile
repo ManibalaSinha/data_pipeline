@@ -1,5 +1,8 @@
 # worker/Dockerfile
 FROM python:3.11-slim
+# Install Postgres client so pg_isready works
+RUN apt-get update && apt-get install -y postgresql-client
+
 WORKDIR /app
 
 # copy requirements from parent folder

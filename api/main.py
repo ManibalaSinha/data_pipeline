@@ -1,15 +1,16 @@
 from fastapi import FastAPI, BackgroundTasks, Request
-from pipeline.config import load_settings
+from pipeline import load_settings
 from pipeline.tasks import run_pipeline
 from api.routes import router
+from api.routers import notes
 from pipeline.storage import init_db
 from api.middleware import LoggingMiddleware
 import time
 
 settings = load_settings()
 
-app = FastAPI()
-app.include_router(router)
+app = FastAPI(title="Data Pipeline API")
+app.include_router(notes.router)
 
 app.add_middleware(LoggingMiddleware)
 

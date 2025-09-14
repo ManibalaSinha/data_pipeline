@@ -11,3 +11,7 @@ pytest
 pyyaml 
 python-jose[cryptography]
 passlib[bcrypt]
+asyncpg
+pydantic
+celery[redis]
+requests
