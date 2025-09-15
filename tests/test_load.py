@@ -9,7 +9,7 @@ def test_load_to_db(tmp_path):
 
     # Sample DataFrame
     df = pd.DataFrame({
-        "id": [1, 2],
+        "transaction_id": [1, 2],
         "description": ["Water Bill", "Internet"],
         "amount": [50.5, 60.0],
         "date": pd.to_datetime(["2025-09-01", "2025-09-02"]),

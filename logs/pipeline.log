@@ -1761,3 +1761,84 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/requests/models.py", line 940, in raise_for_status
     raise HTTPError(http_error_msg, response=self)
 requests.exceptions.HTTPError: 404 Client Error: File not found for url: http://localhost:8000/users.json
+2025-09-15 14:40:47,277 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 14:40:47,285 - INFO - Extracted 5 rows
+2025-09-15 14:40:47,295 - INFO - Transformed 5 rows
+2025-09-15 14:40:47,320 - INFO - Loaded sample_transactions.csv into database successfully
+2025-09-15 14:40:47,320 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 14:40:47,322 - INFO - Extracted 5 rows
+2025-09-15 14:40:47,325 - INFO - Transformed 5 rows
+2025-09-15 14:40:47,337 - INFO - Loaded sample.csv into database successfully
+2025-09-15 14:40:47,338 - INFO - ETL pipeline finished successfully
+2025-09-15 14:45:07,593 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 14:45:07,596 - INFO - Extracted 5 rows
+2025-09-15 14:45:07,601 - INFO - Transformed 5 rows
+2025-09-15 14:45:07,602 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named transaction_id
+2025-09-15 14:45:07,602 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 14:45:07,605 - INFO - Extracted 5 rows
+2025-09-15 14:45:07,607 - INFO - Transformed 5 rows
+2025-09-15 14:45:07,613 - INFO - Loaded sample.csv into database successfully
+2025-09-15 14:45:07,613 - INFO - ETL pipeline finished successfully
+2025-09-15 14:59:11,963 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 14:59:11,968 - INFO - Extracted 5 rows
+2025-09-15 14:59:11,971 - INFO - Transformed 5 rows
+2025-09-15 14:59:11,979 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named transaction_id
+2025-09-15 14:59:11,980 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 14:59:11,983 - INFO - Extracted 5 rows
+2025-09-15 14:59:11,985 - INFO - Transformed 5 rows
+2025-09-15 14:59:12,006 - INFO - Loaded sample.csv into database successfully
+2025-09-15 14:59:12,006 - INFO - ETL pipeline finished successfully
+2025-09-15 15:27:54,828 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 15:27:54,833 - INFO - Extracted 5 rows
+2025-09-15 15:27:54,837 - INFO - Transformed 5 rows
+2025-09-15 15:27:54,839 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named transaction_id
+2025-09-15 15:27:54,839 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 15:27:54,843 - INFO - Extracted 5 rows
+2025-09-15 15:27:54,845 - INFO - Transformed 5 rows
+2025-09-15 15:27:54,860 - INFO - Loaded sample.csv into database successfully
+2025-09-15 15:27:54,861 - INFO - ETL pipeline finished successfully
+2025-09-15 15:31:14,723 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 15:31:14,731 - INFO - Extracted 5 rows
+2025-09-15 15:31:14,742 - INFO - Transformed 5 rows
+2025-09-15 15:31:14,751 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named transaction_id
+2025-09-15 15:31:14,752 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 15:31:14,756 - INFO - Extracted 5 rows
+2025-09-15 15:31:14,757 - INFO - Transformed 5 rows
+2025-09-15 15:31:14,785 - INFO - Loaded sample.csv into database successfully
+2025-09-15 15:31:14,785 - INFO - ETL pipeline finished successfully
+2025-09-15 15:33:23,378 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 15:33:23,386 - INFO - Extracted 5 rows
+2025-09-15 15:33:23,392 - INFO - Transformed 5 rows
+2025-09-15 15:33:23,409 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named customer_id
+2025-09-15 15:33:23,409 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 15:33:23,411 - INFO - Extracted 5 rows
+2025-09-15 15:33:23,415 - INFO - Transformed 5 rows
+2025-09-15 15:33:23,416 - ERROR - Failed processing sample.csv: table transactions has no column named id
+2025-09-15 15:33:23,417 - INFO - ETL pipeline finished successfully
+2025-09-15 15:35:48,761 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 15:35:48,765 - INFO - Extracted 5 rows
+2025-09-15 15:35:48,770 - INFO - Transformed 5 rows
+2025-09-15 15:35:48,771 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named customer_id
+2025-09-15 15:35:48,771 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 15:35:48,773 - INFO - Extracted 5 rows
+2025-09-15 15:35:48,774 - INFO - Transformed 5 rows
+2025-09-15 15:35:48,775 - ERROR - Failed processing sample.csv: table transactions has no column named id
+2025-09-15 15:35:48,775 - INFO - ETL pipeline finished successfully
+2025-09-15 15:36:37,054 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 15:36:37,058 - INFO - Extracted 5 rows
+2025-09-15 15:36:37,061 - INFO - Transformed 5 rows
+2025-09-15 15:36:37,063 - ERROR - Failed processing sample_transactions.csv: table transactions has no column named customer_id
+2025-09-15 15:36:37,063 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 15:36:37,064 - INFO - Extracted 5 rows
+2025-09-15 15:36:37,065 - INFO - Transformed 5 rows
+2025-09-15 15:36:37,066 - ERROR - Failed processing sample.csv: table transactions has no column named customer_id
+2025-09-15 15:36:37,066 - INFO - ETL pipeline finished successfully
+2025-09-15 15:37:56,563 - INFO - Starting ETL pipeline for sample_transactions.csv
+2025-09-15 15:37:56,567 - INFO - Extracted 5 rows
+2025-09-15 15:37:56,570 - INFO - Transformed 5 rows
+2025-09-15 15:37:56,607 - INFO - Loaded sample_transactions.csv into database successfully
+2025-09-15 15:37:56,607 - INFO - Starting ETL pipeline for sample.csv
+2025-09-15 15:37:56,609 - INFO - Extracted 5 rows
+2025-09-15 15:37:56,612 - INFO - Transformed 5 rows
+2025-09-15 15:37:56,629 - INFO - Loaded sample.csv into database successfully
+2025-09-15 15:37:56,629 - INFO - ETL pipeline finished successfully

@@ -1,4 +1,4 @@
-id,description,amount,date
+customer_id,description,amount,date
 1,Water Bill,50.5,2025-09-01
 2,Netflix Subscription,15.0,2025-09-02
 3,Electricity,75.25,2025-09-03

@@ -6,7 +6,9 @@ from utils.logger import setup_logger
 from utils.db_connector import get_connection
 from config_loader import load_config
 
-def main():
+
+def main() -> None:
+    
     # Setup logger
     logger = setup_logger("data_pipeline")
 
@@ -39,6 +41,7 @@ def main():
             except Exception as e:
                 logger.error(f"Failed processing {file}: {e}")
 
+    
     # Close DB connection
     conn.close()
     logger.info("ETL pipeline finished successfully")
