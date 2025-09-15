@@ -1,0 +1,6 @@
+transaction_id,amount,date,description,customer_id
+1001,49.99,2025-09-01,Water Bill,501
+1002,19.99,2025-09-02,Netflix Subscription,502
+1003,9.99,2025-09-03,Spotify Subscription,503
+1004,120.00,2025-09-03,Electricity Bill,504
+1005,15.50,2025-09-04,Mobile Recharge,505
