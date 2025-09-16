@@ -1,3 +1,9 @@
+# Data Pipeline
+Simulates payment transaction workflows.
+Python, ETL, and database skills.
+Cloud-ready and production-style architecture.
+Includes logging, testing, and containerization, which are standard in financial services engineering.
+
 Folder Structure
 data_pipeline/
 ├── README.md
@@ -66,8 +72,6 @@ pip install -r requirements.txt
 Run the pipeline
 
 python src/main.py
-
-# Data Pipeline
 
 A production-like data pipeline demonstrating Python, Celery, FastAPI, PostgreSQL, and Redis. Ideal for backend development, asynchronous task processing, and API design portfolios.
 
@@ -173,5 +177,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ##  Contact
 
 For questions or feedback, please reach out to [smanibala.it@gmail.com](mailto:smanibala.it@gmail.com).
+
 
 
