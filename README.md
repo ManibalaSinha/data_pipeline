@@ -1,3 +1,72 @@
+Folder Structure
+data_pipeline/
+├── README.md
+├── requirements.txt
+├── config/
+│   ├── config.yaml          # Pipeline and DB configuration
+│   └── logging_config.yaml  # Logging settings
+├── data/
+│   ├── raw/                 # Original raw CSV files
+│   ├── processed/           # Cleaned / transformed data
+│   └── output/              # Final outputs / reports
+├── notebooks/
+│   └── summary.ipynb        # Analysis / visualization
+├── src/
+│   ├── main.py              # Entry point
+│   ├── config_loader.py
+│   ├── pipeline/            # ETL modules
+│   └── utils/               # Logging, DB connectors, helpers
+├── tests/                   # Unit tests for pipeline modules
+└── docker/                  # Dockerfile & docker-compose
+Features
+Modular ETL Pipeline
+
+extract.py: Read CSV or API data.
+
+transform.py: Clean, format, and categorize transactions.
+
+load.py: Store data in database (SQLite / Postgres).
+
+Config Management
+
+YAML configuration files to manage paths, database connections, and logging.
+
+Logging
+
+Centralized logger for monitoring pipeline execution.
+
+Unit Testing
+
+Tests for each ETL module using pytest.
+
+Dockerized
+
+Containerized for portability and cloud deployment readiness.
+
+Data Visualization
+
+Jupyter Notebook for summary reports and insights.
+
+Installation
+Clone the repo
+
+git clone https://github.com/manibalasinha/data_pipeline.git
+cd data_pipeline
+
+Create virtual environment
+
+python -m venv venv
+source venv/bin/activate   # Linux / Mac
+venv\Scripts\activate      # Windows
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the pipeline
+
+python src/main.py
+
 # Data Pipeline
 
 A production-like data pipeline demonstrating Python, Celery, FastAPI, PostgreSQL, and Redis. Ideal for backend development, asynchronous task processing, and API design portfolios.
@@ -104,4 +173,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ##  Contact
 
 For questions or feedback, please reach out to [smanibala.it@gmail.com](mailto:smanibala.it@gmail.com).
+
 
