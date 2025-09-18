@@ -1,8 +1,206 @@
 # Data Pipeline
+
 Simulates payment transaction workflows.
 Python, ETL, and database skills.
 Cloud-ready and production-style architecture.
 Includes logging, testing, and containerization, which are standard in financial services engineering.
+---
+
+# ** Folder Structure**
+
+```
+data_pipeline/
+│
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── airflow_dags/
+│   └── etl_pipeline.py
+├── notebooks/
+│   └── analysis.ipynb
+├── src/
+│   ├── ingestion.py
+│   ├── transformation.py
+│   ├── loader.py
+│   └── utils.py
+├── tests/
+│   ├── test_ingestion.py
+│   ├── test_transformation.py
+│   └── test_loader.py
+├── data/
+│   ├── raw/
+│   └── processed/
+└── diagrams/
+    └── architecture.png
+```
+
+---
+
+# **2️⃣ Sample README.md**
+
+````markdown
+# Data Pipeline Project
+
+## Overview
+This project demonstrates an end-to-end **data engineering pipeline**, including ingestion, transformation, loading, and analytics. It simulates **batch and streaming data pipelines**, integrates multiple data sources, and can run on **cloud environments like Azure**. 
+
+**Technologies:** Python, PySpark, SQL (PostgreSQL), Kafka, Airflow, Docker, Azure Blob Storage, dbt, Pandas
+
+---
+
+## Architecture
+
+![Data Pipeline Architecture](diagrams/architecture.png)
+
+1. **Ingestion:** Fetch data from APIs, CSV, relational databases, or streaming sources.
+2. **Transformation:** Clean, normalize, and enrich data using PySpark/Pandas.
+3. **Loading:** Save processed data to PostgreSQL, Azure Blob/ADLS, or other storage.
+4. **Orchestration:** Manage ETL workflow with Airflow DAGs.
+5. **Analysis & Visualization:** Jupyter notebooks for KPIs, dashboards, and reporting.
+
+---
+
+## Setup Instructions
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/ManibalaSinha/data_pipeline.git
+cd data_pipeline
+````
+
+### 2. Create Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux / Mac
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+```
+
+### 3. Run Locally
+
+```bash
+python src/ingestion.py
+python src/transformation.py
+python src/loader.py
+```
+
+### 4. Run with Docker
+
+```bash
+docker build -t data_pipeline .
+docker run -it data_pipeline
+```
+
+### 5. Run Airflow DAG
+
+* Copy `airflow_dags/etl_pipeline.py` to your Airflow DAGs folder
+* Start Airflow webserver and scheduler
+* Trigger `etl_pipeline` DAG via UI or CLI
+
+---
+
+## Key Features
+
+* **Batch & streaming pipelines** with Kafka integration
+* **PySpark transformations** for large-scale data
+* **Cloud-ready architecture** for Azure Blob / ADLS
+* **Dockerized** for portability
+* **CI/CD friendly** with modular scripts
+* **Unit & integration testing** for quality assurance
+* **Metrics tracking & logging**
+
+---
+
+## Sample Metrics
+
+| Metric                 | Value          |
+| ---------------------- | -------------- |
+| Data processed/day     | 500k rows      |
+| Avg pipeline execution | 10 mins        |
+| Success rate           | 99.5%          |
+| Error handling         | Retries + logs |
+
+---
+
+## Future Improvements
+
+* Add **dbt for modular transformations**
+* Integrate **Databricks for cloud Spark jobs**
+* Extend **streaming pipelines to real-time dashboards**
+* Include **more automated tests** and CI/CD pipeline
+
+---
+
+## Author
+
+**Manibala Sinha**
+
+* [GitHub](https://github.com/ManibalaSinha)
+* [LinkedIn](https://linkedin.com/in/manibalasinha)
+
+````
+
+---
+
+# **3️⃣ Sample Airflow DAG (`airflow_dags/etl_pipeline.py`)**
+
+```python
+from airflow import DAG
+from airflow.operators.python_operator import PythonOperator
+from datetime import datetime
+from src.ingestion import run_ingestion
+from src.transformation import run_transformation
+from src.loader import run_loader
+
+default_args = {
+    'owner': 'manibala',
+    'depends_on_past': False,
+    'start_date': datetime(2025, 9, 18),
+    'retries': 1,
+}
+
+dag = DAG(
+    'etl_pipeline',
+    default_args=default_args,
+    description='End-to-end ETL pipeline',
+    schedule_interval='@daily',
+)
+
+ingest_task = PythonOperator(
+    task_id='ingest_data',
+    python_callable=run_ingestion,
+    dag=dag,
+)
+
+transform_task = PythonOperator(
+    task_id='transform_data',
+    python_callable=run_transformation,
+    dag=dag,
+)
+
+load_task = PythonOperator(
+    task_id='load_data',
+    python_callable=run_loader,
+    dag=dag,
+)
+
+ingest_task >> transform_task >> load_task
+````
+
+---
+
+# **4️⃣ Testing (`tests/test_transformation.py`) Example**
+
+```python
+import pandas as pd
+from src.transformation import transform_data
+
+def test_transform_data():
+    df = pd.DataFrame({'value': [1, 2, None, 4]})
+    df_transformed = transform_data(df)
+    assert df_transformed['value'].isnull().sum() == 0
+``
 
 Folder Structure
 data_pipeline/
@@ -177,6 +375,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ##  Contact
 
 For questions or feedback, please reach out to [smanibala.it@gmail.com](mailto:smanibala.it@gmail.com).
+
 
 
 
