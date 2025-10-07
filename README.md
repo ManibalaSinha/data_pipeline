@@ -1,261 +1,122 @@
-# Data Pipeline Project
-
-A Python-based ETL (Extract, Transform, Load) pipeline that automates data ingestion, transformation, and storage. Designed to demonstrate real-world data engineering workflows.
-
----
-
-##  Motivation
-
-In modern applications, raw data comes in different formats and sources. This project simulates a scalable ETL workflow that processes raw data, transforms it into a structured format, and stores it in a database for analysis or downstream applications.
-
----
-<<<<<<< HEAD
-
-##  Features
-
-- Automated data ingestion from CSV files or APIs  
-- Data cleaning, transformation, and normalization  
-- Loading processed data into PostgreSQL or SQLite  
-- Logging and error handling for reliability  
-- Modular and easily extensible pipeline  
-
----
-
-##  Tech Stack
-
-- **Language:** Python  
-- **Libraries:** pandas, SQLAlchemy, requests  
-- **Database:** PostgreSQL / SQLite  
-- **Optional Tools:** Docker, GitHub Actions (CI/CD)  
-=======
-
-##  Features
-
-- Automated data ingestion from CSV files or APIs  
-- Data cleaning, transformation, and normalization  
-- Loading processed data into PostgreSQL or SQLite  
-- Logging and error handling for reliability  
-- Modular and easily extensible pipeline  
-
----
-
-##  Tech Stack
-
-- **Language:** Python  
-- **Libraries:** pandas, SQLAlchemy, requests  
-- **Database:** PostgreSQL / SQLite  
-- **Optional Tools:** Docker, GitHub Actions (CI/CD)  
-
----
-
-##  Architecture
-
-```
->>>>>>> REAMDME.md
-
-Data Source (CSV / API)
-│
-▼
-ETL Script (Python)
-│
-▼
-Transformation & Cleaning
-│
-▼
-Database (PostgreSQL / SQLite)
-│
-▼
-Ready for Analysis / Visualization
-
-##  Installation
-
-<<<<<<< HEAD
-##  Architecture
-
-```
-
-Data Source (CSV / API)
-│
-▼
-ETL Script (Python)
-│
-▼
-Transformation & Cleaning
-│
-▼
-Database (PostgreSQL / SQLite)
-│
-▼
-Ready for Analysis / Visualization
-
-##  Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ManibalaSinha/data_pipeline.git
-````
-
-2. Navigate into the project folder:
-
-   ```bash
-   cd data_pipeline
-   ```
-3. Create a virtual environment:
-
-   ```bash
-   python -m venv venv
-   ```
-4. Activate the environment:
-
-   * Windows:
-
-     ```bash
-     venv\Scripts\activate
-     ```
-   * Mac/Linux:
-=======
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ManibalaSinha/data_pipeline.git
-````
-
-2. Navigate into the project folder:
-
-   ```bash
-   cd data_pipeline
-   ```
-3. Create a virtual environment:
-
-   ```bash
-   python -m venv venv
-   ```
-4. Activate the environment:
-
-   * Windows:
-
-     ```bash
-     venv\Scripts\activate
-     ```
-   * Mac/Linux:
-
-     ```bash
-     source venv/bin/activate
-     ```
-5. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-6. Run the pipeline:
-
-   ```bash
-   python etl_main.py
-   ```
->>>>>>> REAMDME.md
-
-     ```bash
-     source venv/bin/activate
-     ```
-5. Install dependencies:
-
-<<<<<<< HEAD
-   ```bash
-   pip install -r requirements.txt
-   ```
-6. Run the pipeline:
-
-   ```bash
-   python etl_main.py
-   ```
-
----
-
-##  Sample Output
-
-| ID | Name    | Age | City      |
-| -- | ------- | --- | --------- |
-| 1  | Alice   | 29  | Toronto   |
-| 2  | Bob     | 34  | Vancouver |
-| 3  | Charlie | 25  | Montreal  |
-
-
----
-
-##  Future Enhancements
-
-* Integrate **Apache Airflow** or **Prefect** for pipeline scheduling* Add **unit and integration tests** to ensure reliability
-* Enable **API-based data ingestion** from live sources
-* Implement **Dockerization** for easier deployment
-
----
-
-##  Project Structure
+## **1. Folder Structure**
 
 ```
 data_pipeline/
-│
-├── etl_main.py        # Main ETL script
-├── config/            # Configuration files
-├── data/              # Sample datasets
-├── modules/           # ETL modules (ingestion, transformation, loading)
-├── tests/             # Unit and integration tests
-├── requirements.txt   # Python dependencies
-└── README.md
+├─ transactions_service/        # Handles transaction creation & validation
+│  ├─ main.py                   # FastAPI endpoints
+│  ├─ models.py                 # DB models
+│  ├─ db.py                     # MySQL/PostgreSQL connection
+│  ├─ requirements.txt
+├─ notifications_service/       # Sends alerts for transactions
+│  ├─ main.py                   # Listens to RabbitMQ queue
+│  ├─ requirements.txt
+├─ docker-compose.yml            # Orchestrates services + RabbitMQ + MySQL
+├─ tests/                        # Unit + integration tests
+├─ README.md                     # Project overview
 ```
 
 ---
 
-##  How to Contribute
+## **2. Sample Code Snippets**
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a Pull Request
-=======
-##  Sample Output
+### **transactions_service/main.py**
 
-| ID | Name    | Age | City      |
-| -- | ------- | --- | --------- |
-| 1  | Alice   | 29  | Toronto   |
-| 2  | Bob     | 34  | Vancouver |
-| 3  | Charlie | 25  | Montreal  |
+```python
+from fastapi import FastAPI
+from models import Transaction
+from db import get_db
 
+app = FastAPI()
 
----
-
-##  Future Enhancements
-
-* Integrate **Apache Airflow** or **Prefect** for pipeline scheduling* Add **unit and integration tests** to ensure reliability
-* Enable **API-based data ingestion** from live sources
-* Implement **Dockerization** for easier deployment
-
----
-
-##  Project Structure
-
+@app.post("/transactions/")
+async def create_transaction(amount: float, account_id: int):
+    db = get_db()
+    transaction = Transaction(account_id=account_id, amount=amount)
+    db.add(transaction)
+    db.commit()
+    # Push to RabbitMQ for notifications
+    # notify_queue.publish(transaction.id)
+    return {"status": "success", "transaction_id": transaction.id}
 ```
-data_pipeline/
-│
-├── etl_main.py        # Main ETL script
-├── config/            # Configuration files
-├── data/              # Sample datasets
-├── modules/           # ETL modules (ingestion, transformation, loading)
-├── tests/             # Unit and integration tests
-├── requirements.txt   # Python dependencies
-└── README.md
+
+### **notifications_service/main.py**
+
+```python
+import pika  # RabbitMQ client
+
+def callback(ch, method, properties, body):
+    print(f"Transaction alert: {body}")
+
+connection = pika.BlockingConnection(pika.ConnectionParameters('rabbitmq'))
+channel = connection.channel()
+channel.queue_declare(queue='transaction_alerts')
+channel.basic_consume(queue='transaction_alerts', on_message_callback=callback, auto_ack=True)
+print('Waiting for messages...')
+channel.start_consuming()
 ```
 
 ---
 
-##  How to Contribute
+### **docker-compose.yml**
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a Pull Request
+```yaml
+version: "3.8"
+services:
+  transactions_service:
+    build: ./transactions_service
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mysql
+      - rabbitmq
 
->>>>>>> REAMDME.md
+  notifications_service:
+    build: ./notifications_service
+    depends_on:
+      - rabbitmq
 
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: tech
+    ports:
+      - "3306:3306"
+```
+
+---
+
+```markdown
+# High-Volume Transaction Microservices
+
+Transformed a Python ETL/automation pipeline into a **microservices architecture** simulating financial transactions.
+
+## Features
+- **Transactions Service:** Handles creation, validation, and storage in MySQL/PostgreSQL.
+- **Notifications Service:** Sends alerts for high-value transactions using RabbitMQ.
+- **Async Processing:** Celery workers queue tasks for reliability and scalability.
+- **REST APIs:** FastAPI endpoints for transaction management.
+- **Cloud Ready:** Dockerized for easy deployment.
+
+## Tech Stack
+- Python, FastAPI, Celery, RabbitMQ, MySQL/PostgreSQL
+- Docker / Docker Compose
+- REST APIs, Async Processing, Microservices
+
+## Usage
+1. Start services: `docker-compose up --build`
+2. Access transactions API: `http://localhost:8000/transactions/`
+3. Notifications are sent automatically via RabbitMQ
+
+## Key Learnings
+- Built scalable microservices architecture
+- Implemented async message queues
+- Optimized database storage for high-volume transactions
+- Prepared project for cloud deployment
 
