@@ -47,12 +47,6 @@ Database (PostgreSQL / SQLite)
 ▼
 Ready for Analysis / Visualization
 
-````
-
-*Visual diagram can be added here for better clarity.*
-
----
-
 ##  Installation
 
 1. Clone the repository:
@@ -139,3 +133,4 @@ data_pipeline/
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to the branch (`git push origin feature-name`)
 5. Open a Pull Request
+
