@@ -97,14 +97,12 @@ Ready for Analysis / Visualization
 | 2  | Bob     | 34  | Vancouver |
 | 3  | Charlie | 25  | Montreal  |
 
-*A screenshot of your actual pipeline output can be included here.*
 
 ---
 
 ##  Future Enhancements
 
-* Integrate **Apache Airflow** or **Prefect** for pipeline scheduling
-* Add **unit and integration tests** to ensure reliability
+* Integrate **Apache Airflow** or **Prefect** for pipeline scheduling* Add **unit and integration tests** to ensure reliability
 * Enable **API-based data ingestion** from live sources
 * Implement **Dockerization** for easier deployment
 
@@ -133,4 +131,5 @@ data_pipeline/
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to the branch (`git push origin feature-name`)
 5. Open a Pull Request
+
 
