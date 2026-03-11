@@ -1,5 +1,12 @@
-## **1. Folder Structure**
+data_pipeline – Full Stack Dashboard (Next.js + FastAPI)
 
+Built a Next.js frontend to display backend data pipeline jobs and metrics with server-side rendering.
+
+Integrated with Python APIs for real-time job and status display.
+
+Deployed frontend to Vercel and backend to cloud services.
+
+Tech: Next.js, React, FastAPI, Python, Docker, Vercel
 ```
 data_pipeline/
 ├─ transactions_service/        # Handles transaction creation & validation
@@ -119,4 +126,5 @@ Transformed a Python ETL/automation pipeline into a **microservices architecture
 - Implemented async message queues
 - Optimized database storage for high-volume transactions
 - Prepared project for cloud deployment
+
 
