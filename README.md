@@ -1,12 +1,22 @@
-data_pipeline – Full Stack Dashboard (Next.js + FastAPI)
+data_pipeline – Full Stack Dashboard (Next.js + FastAPI + Microservices)
 
-Built a Next.js frontend to display backend data pipeline jobs and metrics with server-side rendering.
+Transformed a Python ETL/automation pipeline into a full-stack microservices architecture with a modern frontend.
 
-Integrated with Python APIs for real-time job and status display.
+Key Highlights:
+Next.js Frontend: Built a dashboard to display pipeline jobs, metrics, and transaction status using server-side rendering.
 
-Deployed frontend to Vercel and backend to cloud services.
+Backend Microservices:
+Transactions Service: Handles creation, validation, and storage in MySQL/PostgreSQL.
+Notifications Service: Sends alerts via RabbitMQ for high-value transactions.
+Async Processing & Queues: Celery workers and RabbitMQ for reliable, scalable task handling.
+API Design: FastAPI endpoints for transactions and metrics.
+Dockerized & Cloud-Ready: Services orchestrated via Docker Compose for easy deployment.
+Tech Stack: Next.js, React, Python, FastAPI, Celery, RabbitMQ, MySQL/PostgreSQL, Docker, Docker Compose, REST APIs, Microservices
 
-Tech: Next.js, React, FastAPI, Python, Docker, Vercel
+Usage / Demo:
+Start backend services: docker-compose up --build
+Run Next.js frontend: cd frontend && npm run dev
+Access dashboard: http://localhost:3000
 ```
 data_pipeline/
 ├─ transactions_service/        # Handles transaction creation & validation
@@ -126,5 +136,6 @@ Transformed a Python ETL/automation pipeline into a **microservices architecture
 - Implemented async message queues
 - Optimized database storage for high-volume transactions
 - Prepared project for cloud deployment
+
 
 
