@@ -8,10 +8,10 @@ api:
     posts: "/posts"
 
 storage:
-  database_url: "postgresql+psycopg2://postgres:password@db:5432/db"
-  redis_url: "redis://redis:6379/0"
-  s3_bucket: "my-data-bucket"
+  database_url: "${DATABASE_URL}"   # Used env variable
+  redis_url: "${REDIS_URL}"         # Used env variable
+  s3_bucket: "${S3_BUCKET}"         # Used env variable
 
 celery:
-  broker_url: "redis://redis:6379/1"
-  result_backend: "redis://redis:6379/2"
+  broker_url: "${CELERY_BROKER_URL}"      # Used env variable
+  result_backend: "${CELERY_RESULT_BACKEND}"  # Used env variable
