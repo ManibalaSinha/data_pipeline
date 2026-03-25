@@ -15,9 +15,8 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
 fake_users_db = {
-    "manib": {"username": "manib", "email": "mani@example.com", "hashed_password": pwd_context.hash("password123")}
-}
-
+    "manib": {"username": "manib", "email": "mani@example.com", "hashed_password": pwd_context.hash("strong_password")}
+    }
 def verify_password(plain, hashed_password):
     return pwd_context.verify(plain, hashed_password)
 
