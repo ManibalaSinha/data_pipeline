@@ -5,8 +5,9 @@ from fastapi.security import OAuth2PasswordBearer
 from pipeline.schemas import User
 from passlib.context import CryptContext
 from typing import Optional
+import os
 
-SECRET_KEY = "supersecretkey" #env var
+SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
