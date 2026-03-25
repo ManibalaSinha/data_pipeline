@@ -1,0 +1,10 @@
+environment: development
+
+debug: true
+
+logging:
+  level: INFO
+
+features:
+  enable_cache: true
+  enable_auth: true
