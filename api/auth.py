@@ -7,7 +7,7 @@ from pipeline.schemas import User
 from passlib.context import CryptContext
 from typing import Optional
 
-SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret")
+SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
